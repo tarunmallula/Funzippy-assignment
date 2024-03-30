@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.header-section {
+    background-color: #8a17e8;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.heading {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 46px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+.list {
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.list-item {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 300;
+    margin-right: 40px;
+    letter-spacing: 2px;
+}
+
+.home-image {
+    width: 100%;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-section {
+    background-image: url("https://res.cloudinary.com/dzcltcukw/image/upload/v1711771642/birthday-party-bg-img.png");
+    background-size: cover;
+    min-height: 100vh;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 160px;
+}
+
+.invite {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+
+.name {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+
+.age {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.date-image {
+    width: 500px;
+}
+
+.rsvp-button {
+    border: none;
+    height: 60px;
+    width: 240px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-top: 30px;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 600;
+    color: #8a17e8;
+    letter-spacing: 1px;
+}
+
+.venue-address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.venue {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 4px;
+}
+
+.address {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.message {
+    color: #ffffff;
+    font-family: "Memorable";
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.location-image {
+    width: 80%;
+    margin-top: 40px;
+}
